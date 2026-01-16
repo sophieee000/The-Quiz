@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Fun General Knowledge Quiz!</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 min-h-screen flex items-center justify-center p-4">
+    <div class="bg-white rounded-lg shadow-lg p-8 max-w-2xl w-full">
+      <h1 class="text-3xl font-bold text-center mb-8 text-gray-700">The Fun General Knowledge Quiz!</h1>
+      <button id="start-btn" class="w-full bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-6 rounded-lg transition duration-300 mb-6">
+        Start Quiz
+      </button>
+      
+      <div id="quiz-content" class="hidden">
+        <div id="question-container"></div>
+        <div id="result" class="hidden text-center mt-8"></div>
+      </div>
+    </div>
+  </body>
+  <script src="Thequiz.js"></script>
+</html>
